@@ -1,0 +1,59 @@
+body {
+    background-color: #2e5849;
+    font-family: sans-serif;
+}
+
+#todo {
+    margin: auto;
+    width: 100%;
+    min-height: 50vh;
+    max-width: 600px;
+    padding: 3rem 1rem;
+}
+
+.add-task-form {
+    margin-bottom: 4rem;
+}
+
+.add-task-form__input {
+    background-color: #1c382f;
+    border: 1px solid #183129;
+    box-shadow: inset 0px 0px 25px 25px rgba(0,0,0,0.1);
+    font-size: 1.5em;
+    width: 100%;
+    color: white;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.add-task-form__input:focus {
+    box-shadow: inset 0px 0px 25px 25px rgba(0,0,0,0.3);
+}
+
+.task-counter {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+
+.task-list {
+    margin-top: 1rem;
+}
+
+.task-list .task {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 0.3em;
+}
+.task-list .task.task--checked {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.task-list .task__checkbox {
+    margin-right: 1em;
+}
